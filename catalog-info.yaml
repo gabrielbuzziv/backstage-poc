@@ -2,9 +2,30 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Jupiter
+  description: Jupiter is the responsible for upload, manage, storage, encode, transcript and analyze everything about videos.
+  tags:
+    - nest.js
+    - graphql
+    - prisma
+  links:
+    - url: https://github.com/gabrielbuzziv/backstage-poc
+      title: Github Repo
+      icon: github
+    - url: http://www.google.com
+      title: Admin Panel 
+      icon: code
+    - url: http://www.google.com
+      title: Figma
+      icon: code
+    - url: http://www.google.com
+      title: Kafka Types
+      icon: github
   annotations:
     github.com/project-slug: gabrielbuzziv/backstage-poc
+    backstage.io/techdocs-ref: dir:.
 spec:
-  type: other
-  lifecycle: unknown
+  type: Service
+  lifecycle: Development
   owner: Discover
+  definition: 
+    Aqui vai qualquer informação a respeito da definição do projeto?
