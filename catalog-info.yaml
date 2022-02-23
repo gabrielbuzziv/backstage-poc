@@ -28,4 +28,4 @@ spec:
   lifecycle: Development
   owner: Discover
   definition: 
-    Aqui vai qualquer informação a respeito da definição do projeto?
+    $text: https://petstore.swagger.io/v2/swagger.json
