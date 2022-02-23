@@ -4,7 +4,7 @@ metadata:
   name: Jupiter
   description: Jupiter is the responsible for upload, manage, storage, encode, transcript and analyze everything about videos.
   tags:
-    - nest.js
+    - nestjs
     - graphql
     - prisma
   links:
