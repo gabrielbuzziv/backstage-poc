@@ -25,6 +25,7 @@ metadata:
     github.com/project-slug: gabrielbuzziv/backstage-poc
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: Service
-  lifecycle: Development
-  owner: Discover
+  type: service
+  lifecycle: development
+  owner: discover
+  definition: testing
