@@ -3,6 +3,9 @@ site_name: 'backstage-example'
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Kafka: 
+    - Consumed Topics: kafka/topics-consumed.md
+    - Provided Topics: kafka/topics-provided.md
 
 plugins:
   - techdocs-core
